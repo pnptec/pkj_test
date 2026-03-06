@@ -6,3 +6,10 @@
   "sub": "pK5qByn4IRZaXmL9ndCTflTdwM7fAzze",
   "jti": "weqewqweqeqweqwe"
 }
+
+
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "bGEsDiMHEeCf2F0oHL8GgIRBM_cfRfhVCHWEDeYpyGU"
+}
