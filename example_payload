@@ -13,3 +13,7 @@
   "typ": "JWT",
   "kid": "bGEsDiMHEeCf2F0oHL8GgIRBM_cfRfhVCHWEDeYpyGU"
 }
+
+
+genrsa -out asic_jwt_private.key 4096 
+openssl req -new -x509 -sha256 -days 365 -key asic_jwt_private.key -out asic_jwt_public.crt -subj "/CN=MyApp/O=InforBrokerOrg/C=AU"/
